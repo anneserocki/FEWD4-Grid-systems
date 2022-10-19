@@ -1,0 +1,112 @@
+body {
+    background-color: #DFE3E6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+    margin: 0 auto;
+    padding: 10px 10px;
+    width: 960px;           
+}
+
+.container {
+    margin: 0 auto;
+    background-color: white;
+}
+
+#solutions {
+    width: auto;
+    height: 300px;
+    background-image: url(../images/logo_vprospect.gif), url(../images/logo_vconvert.gif), url(../images/logo_vretain.gif);
+    background-repeat: no-repeat;
+    background-position: top, bottom,left; 
+    background-position-x: left;       
+    position:static;
+    margin-left: 10px;                    
+}
+#solutions p {
+    margin-left: 80px;
+    margin-top: 0px;    
+}
+
+header {
+    width: 960px;
+    height: 350px;
+    margin-left: 10px;
+    background-image:url(../images/logo.gif), url(../images/header.gif); 
+    background-repeat: no-repeat;
+    background-position: top, bottom, left, left;
+    background-position-x: left;   
+}
+nav {
+    width: 610px;
+    height: 50px;    
+    margin-left: 340px;
+    margin-top: -300px;           
+    position: absolute;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;    
+    padding-left: 20px;
+    float: right;
+}
+a {
+    text-decoration-line: none;
+    color: #CC1C0D;
+    font-size:large;
+    font-weight: bold;
+}
+a:hover {
+    color:black;
+}
+
+section {
+    width: 640px;
+    height: 750px;    
+    float: left;         
+}
+.welcome {
+    margin-left: 10px; 
+    margin-top: 0;   
+}
+
+aside{
+    width: 300px;
+    height: 350px;
+    float: left;
+    margin-left: 10px;   
+}
+aside p {
+    margin: 10px;
+}
+aside p span {
+    color: red;
+}
+
+#footer { 
+    clear: both;   
+    width: 960px;
+    height: 50px; 
+    position:static;   
+    text-align: center;
+    border-top: 1px solid #929CA4;
+    text-decoration:#929CA4;    
+    font-size: smaller;    
+    bottom: 4px;       
+}
+
+h1 {
+    color:  #CC1C0D;
+    padding: 1px;    
+    border:1px solid #929CA4;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color:  #DFE3E6;       
+    background-image:url(../images/icon_checker.gif);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 10px;    
+    margin-left: 10px;
+    text-indent: 25px;    
+}
